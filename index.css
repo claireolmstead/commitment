@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat:300&display=swap');
+
 body{
 	padding: 0;
-	background: #a0b8d9;
+	background: #f7fbfc;
+	background: -webkit-linear-gradient(#f7fbfc 0%, #d9edf2 31%, #648480 100%);
+	background: -o-linear-gradient(#f7fbfc 0%, #d9edf2 31%, #648480 100%);
+	background: linear-gradient(#f7fbfc 0%, #d9edf2 31%, #648480 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#648480',GradientType=0 );
+	font-family: 'Montserrat', sans-serif;
 }
 main{
 	max-width: 80%;
 	margin: 0 auto;
+}
+h1, h2, h3, h4{
+	font-family: 'Bebas Neue', cursive;
+}
+article{
+	background: rgba(255, 255, 255, 0.4);
+	padding: 2%;
+	margin-bottom: 3%;
 }
 .slideshow{
 	max-width: 400px;
