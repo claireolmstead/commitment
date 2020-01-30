@@ -1,7 +1,10 @@
 body{
-	margin: 0;
 	padding: 0;
 	background: #a0b8d9;
+}
+main{
+	max-width: 80%;
+	margin: 0 auto;
 }
 .slideshow{
 	max-width: 400px;
@@ -10,6 +13,10 @@ body{
 }
 .mySlides{
 	display: none;
+	height: 350px;
+	overflow: hidden;
+	align-items: center;
+	margin: 0 auto;
 }
 .next, .prev{
 	position: absolute;
