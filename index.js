@@ -25,3 +25,14 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+//toggle tips dropdowns
+$('#dropdown1').click(function(){
+  $( "#show1" ).toggle("display");
+});
+$('#dropdown2').click(function(){
+  $( "#show2" ).toggle("display");
+});
+$('#dropdown3').click(function(){
+  $( "#show3" ).toggle("display");
+});

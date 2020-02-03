@@ -70,3 +70,13 @@ article{
   from {opacity: .4}
   to {opacity: 1}
 }
+
+#show1{
+	display: none;
+}
+#show2{
+	display: none;
+}
+#show3{
+	display: none;
+}
