@@ -127,6 +127,10 @@ h4{
 	align-items: center;
 	padding: 10px;
 }
+#reset:hover{
+	background: darkgrey;
+	color: white;
+}
 #resetCase{
 	padding-bottom: 40px;
 }
