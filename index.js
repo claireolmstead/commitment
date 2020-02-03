@@ -71,3 +71,8 @@ $('#triangle10').hover(function(){
 $('#triangle11').hover(function(){
   $("#triangle11").animate({marginLeft: "+=100px"});
 });
+
+//reset triangles
+$('#reset').click(function(){
+  
+});
