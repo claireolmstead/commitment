@@ -122,3 +122,11 @@ h4{
 	font-size: 50pt;
 	text-align: center;
 }
+#reset{
+	float: right;
+	align-items: center;
+	padding: 10px;
+}
+#resetCase{
+	padding-bottom: 40px;
+}
