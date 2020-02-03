@@ -78,6 +78,7 @@ article{
 .dropdown:hover{
  	 font-size: 14pt;
  	 text-decoration: underline;
+ 	 cursor: pointer;
 }
 #show1{
 	display: none;
