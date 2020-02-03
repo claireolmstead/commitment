@@ -16,6 +16,11 @@ main{
 h1, h2, h3, h4{
 	font-family: 'Bebas Neue', cursive;
 }
+header{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 80pt;
+}
 article{
 	background: rgba(255, 255, 255, 0.4);
 	padding: 2%;
@@ -71,13 +76,15 @@ article{
   to {opacity: 1}
 }
 .dropdown{
+	padding: 1%;
 	text-align: center;
 	font-size: 12pt;
 	transition: font-size 0.3s ease;
+	text-decoration: underline;
 }
 .dropdown:hover{
  	 font-size: 14pt;
- 	 text-decoration: underline;
+ 	 background: white;
  	 cursor: pointer;
 }
 #show1{
