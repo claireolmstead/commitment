@@ -70,7 +70,15 @@ article{
   from {opacity: .4}
   to {opacity: 1}
 }
-
+.dropdown{
+	text-align: center;
+	font-size: 12pt;
+	transition: font-size 0.3s ease;
+}
+.dropdown:hover{
+ 	 font-size: 14pt;
+ 	 text-decoration: underline;
+}
 #show1{
 	display: none;
 }
