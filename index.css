@@ -34,6 +34,15 @@ header{
 header:hover{
 	font-size: 80pt;
 }
+h2{
+	font-size: 40pt;
+}
+h3{
+	font-size: 30pt;
+}
+h4{
+	font-size: 20pt;
+}
 article{
 	background: rgba(255, 255, 255, 0.4);
 	padding: 2%;
@@ -91,12 +100,12 @@ article{
 .dropdown{
 	padding: 1%;
 	text-align: center;
-	font-size: 12pt;
+	font-size: 20pt;
 	transition: font-size 0.3s ease;
 	text-decoration: underline;
 }
 .dropdown:hover{
- 	 font-size: 14pt;
+ 	 font-size: 25pt;
  	 background: white;
  	 cursor: pointer;
 }
