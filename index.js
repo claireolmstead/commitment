@@ -36,3 +36,38 @@ $('#dropdown2').click(function(){
 $('#dropdown3').click(function(){
   $( "#show3" ).toggle("display");
 });
+
+//let triangles come in
+$('#triangle1').hover(function(){
+  $("#triangle1").animate({marginLeft: "+=100px"});
+});
+$('#triangle2').hover(function(){
+  $("#triangle2").animate({marginLeft: "-=100px"});
+});
+$('#triangle3').hover(function(){
+  $("#triangle3").animate({marginLeft: "+=100px"});
+});
+$('#triangle4').hover(function(){
+  $("#triangle4").animate({marginLeft: "-=100px"});
+});
+$('#triangle5').hover(function(){
+  $("#triangle5").animate({marginLeft: "+=100px"});
+});
+$('#triangle6').hover(function(){
+  $("#triangle6").animate({marginLeft: "-=100px"});
+});
+$('#triangle7').hover(function(){
+  $("#triangle7").animate({marginLeft: "+=100px"});
+});
+$('#triangle8').hover(function(){
+  $("#triangle8").animate({marginLeft: "-=100px"});
+});
+$('#triangle9').hover(function(){
+  $("#triangle9").animate({marginLeft: "+=100px"});
+});
+$('#triangle10').hover(function(){
+  $("#triangle10").animate({marginLeft: "-=100px"});
+});
+$('#triangle11').hover(function(){
+  $("#triangle11").animate({marginLeft: "+=100px"});
+});
