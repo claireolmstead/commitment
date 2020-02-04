@@ -92,6 +92,7 @@ $('#reset').click(function(){
 
 $("#btn1").click(function(){
   $( "#color1" ).toggle("display");
+  $("#btn1").css("background-color", "#e6ffee");
 });
 $("#btn2").click(function(){
   $( "#color2" ).toggle("display");
