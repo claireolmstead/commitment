@@ -92,18 +92,19 @@ $('#reset').click(function(){
 
 $("#btn1").click(function(){
   $( "#color1" ).toggle("display");
+  $("#btn1").css("background-color", "#e6ffee");
 });
 $("#btn2").click(function(){
   $( "#color2" ).toggle("display");
-  $("#btn1").css("background-color", "#e6ffee");
+  $("#btn2").css("background-color", "#e6ffee");
 });
 $("#btn3").click(function(){
   $( "#color3" ).toggle("display");
-  $("#btn1").css("background-color", "#e6ffee");
+  $("#btn3").css("background-color", "#e6ffee");
 });
 $("#btn4").click(function(){
   $( "#color4" ).toggle("display");
-  $("#btn1").css("background-color", "#e6ffee");
+  $("#btn4").css("background-color", "#e6ffee");
 });
 
 $("#top").click(function() {
