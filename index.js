@@ -79,10 +79,11 @@ $('#reset').click(function(){
 
 $(document).ready(function(){
   $("#letgrow").click(function(){
-    $("#grow").animate({paddingTop: "+=100px"});
-    $("#grow").animate({paddingBottom: "+=10px"});
+    $("#grow").animate({paddingTop: "+=100px"}, 2000);
+    $("#grow").animate({paddingBottom: "+=100px"}, 2000);
   });
   $("#stopgrow").click(function(){
+    $("#grow").stop();
     $("#grow").stop();
   });
 });
