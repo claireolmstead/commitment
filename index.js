@@ -94,13 +94,13 @@ $("#btn1").click(function(){
   $( "#color1" ).toggle("display");
 });
 $("#btn2").click(function(){
-  
+  $( "#color2" ).toggle("display");
 });
 $("#btn3").click(function(){
-  
+  $( "#color3" ).toggle("display");
 });
 $("#btn4").click(function(){
-  
+  $( "#color4" ).toggle("display");
 });
 
 $("#top").click(function() {
