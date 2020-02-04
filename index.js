@@ -91,7 +91,7 @@ $('#reset').click(function(){
   });
 
 $("#btn1").click(function(){
-  
+  $( "#color1" ).toggle("display");
 });
 $("#btn2").click(function(){
   

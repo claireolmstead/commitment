@@ -197,3 +197,31 @@ a:visited{
 	height: 100px;
 	text-align: center;
 }
+#color1{
+	padding: 3%;
+	background: #e6ffee;
+	max-width: 20%;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+#color2{
+	padding: 3%;
+	background: #99ffbb;
+	max-width: 20%;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+#color3{
+	padding: 3%;
+	background: #00ff55;
+	max-width: 20%;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+#color4{
+	padding: 3%;
+	background: #009933;
+	max-width: 20%;
+	margin: 0 auto;
+	margin-top: 3%;
+}
