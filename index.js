@@ -76,3 +76,7 @@ $('#triangle11').hover(function(){
 $('#reset').click(function(){
   location.reload();
 });
+
+$("#letgrow").click(function(){
+  $("#grow").animate({padding-top: "+=100px", padding-bottom: "+=100px"});
+});
