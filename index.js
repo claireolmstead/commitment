@@ -74,5 +74,5 @@ $('#triangle11').hover(function(){
 
 //reset triangles
 $('#reset').click(function(){
-  
+  location.reload();
 });
