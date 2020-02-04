@@ -96,15 +96,15 @@ $("#btn1").click(function(){
 });
 $("#btn2").click(function(){
   $( "#color2" ).toggle("display");
-  $("#btn2").css("background-color", "#e6ffee");
+  $("#btn2").css("background-color", "#99ffbb");
 });
 $("#btn3").click(function(){
   $( "#color3" ).toggle("display");
-  $("#btn3").css("background-color", "#e6ffee");
+  $("#btn3").css("background-color", "#00ff55");
 });
 $("#btn4").click(function(){
   $( "#color4" ).toggle("display");
-  $("#btn4").css("background-color", "#e6ffee");
+  $("#btn4").css("background-color", "#009933");
 });
 
 $("#top").click(function() {
