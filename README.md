@@ -1,4 +1,4 @@
-# commitment
+# Commitment
 ATLS 4519 Assignment
 
 ## About ##
