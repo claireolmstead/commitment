@@ -1,8 +1,7 @@
 # commitment
 ATLS 4519 Assignment
 
-About
-Markup : ## Heading 2 ##
+Markup :  ## About ##
 
 This project was created to practive using github from the terminal and how that all works.
 
