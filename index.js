@@ -79,7 +79,8 @@ $('#reset').click(function(){
 
 $(document).ready(function(){
   $("#letgrow").click(function(){
-    $("#grow").slideDown(5000);
+    $("#grow").animate({paddingTop: "+=100px"});
+    $("#grow").animate({paddingBottom: "+=10px"});
   });
   $("#stopgrow").click(function(){
     $("#grow").stop();
