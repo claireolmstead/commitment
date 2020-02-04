@@ -9,7 +9,7 @@ I created a stream of conciousness-type page that was interactive in multiple wa
 
 I thought of ideas of and implemented them as they came into my mind.  It was very much so a warm up, getting back into jquery etc., for me.
 
-##List of things to look for...##
+## List of things to look for... ##
 * Working Nav
 * List of Tips (toggle)
 * Slideshow
