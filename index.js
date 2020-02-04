@@ -91,7 +91,7 @@ $('#reset').click(function(){
   });
 
 $("#btn1").click(function(){
-
+  
 });
 $("#btn2").click(function(){
   
