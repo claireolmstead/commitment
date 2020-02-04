@@ -192,3 +192,8 @@ a:visited{
 	padding: 10px;
 	margin-left: 92%;
 }
+.clr{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
