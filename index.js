@@ -78,5 +78,12 @@ $('#reset').click(function(){
 });
 
 $("#letgrow").click(function(){
-  $("#grow").animate({padding-top: "+=100px", padding-bottom: "+=100px"});
+  let x = 0;
+  while (x == 0){
+    $("#grow").animate({paddingTop: "+=10px"});
+    $("#grow").animate({paddingBottom: "+=10px"});
+    if ($("#letgrow").click()){
+      x = 1;
+    }
+  }
 });
