@@ -171,15 +171,19 @@ a:visited{
 	padding: 30px;
 	border-radius: 100px;
 }
+#circleButtons{
+	display: flex;
+	justify-content: space-around;
+}
 #btn1:hover{
-	background: 
+	background: red;
 }
 #btn2:hover{
-	background: 
+	background: orange;
 }
 #btn3:hover{
-	background: 
+	background: yellow;
 }
 #btn4:hover{
-	background: 
+	background: green;
 }
