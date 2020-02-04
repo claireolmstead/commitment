@@ -176,14 +176,14 @@ a:visited{
 	justify-content: space-around;
 }
 #btn1:hover{
-	background: red;
+	background: #e6ffee;
 }
 #btn2:hover{
-	background: orange;
+	background: #99ffbb;
 }
 #btn3:hover{
-	background: yellow;
+	background: #00ff55;
 }
 #btn4:hover{
-	background: green;
+	background: #009933;
 }
