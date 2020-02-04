@@ -77,7 +77,6 @@ $('#reset').click(function(){
   location.reload();
 });
 
-$(document).ready(function(){
   $("#letgrow").click(function(){
     $("#grow").animate({paddingTop: "+=100px"}, 2000);
     $("#grow").animate({paddingBottom: "+=100px"}, 2000);
@@ -90,4 +89,17 @@ $(document).ready(function(){
     $("#stopgrow").css("background-color", "lightgrey");
     $("#letgrow").css("background-color", "white");
   });
+
+$("#btn1").click(function(){
+  console.log("made it");
 });
+$("#btn2").click(function(){
+  
+});
+$("#btn3").click(function(){
+  
+});
+$("#btn4").click(function(){
+  
+});
+
