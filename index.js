@@ -81,9 +81,13 @@ $(document).ready(function(){
   $("#letgrow").click(function(){
     $("#grow").animate({paddingTop: "+=100px"}, 2000);
     $("#grow").animate({paddingBottom: "+=100px"}, 2000);
+    $("#letgrow").css("background-color", "lightgrey");
+    $("#stopgrow").css("background-color", "white");
   });
   $("#stopgrow").click(function(){
     $("#grow").stop();
     $("#grow").stop();
+    $("#stopgrow").css("background-color", "lightgrey");
+    $("#letgrow").css("background-color", "white");
   });
 });
