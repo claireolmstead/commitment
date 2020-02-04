@@ -77,13 +77,11 @@ $('#reset').click(function(){
   location.reload();
 });
 
-$("#letgrow").click(function(){
-  let x = 0;
-  while (x == 0){
-    $("#grow").animate({paddingTop: "+=10px"});
-    $("#grow").animate({paddingBottom: "+=10px"});
-    if ($("#letgrow").click()){
-      x = 1;
-    }
-  }
+$(document).ready(function(){
+  $("#letgrow").click(function(){
+    $("#grow").slideDown(5000);
+  });
+  $("#stopgrow").click(function(){
+    $("#grow").stop();
+  });
 });
