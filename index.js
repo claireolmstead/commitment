@@ -91,7 +91,7 @@ $('#reset').click(function(){
   });
 
 $("#btn1").click(function(){
-  console.log("made it");
+
 });
 $("#btn2").click(function(){
   
@@ -103,3 +103,7 @@ $("#btn4").click(function(){
   
 });
 
+$("#top").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+});
